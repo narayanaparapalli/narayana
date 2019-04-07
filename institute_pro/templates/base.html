@@ -1,0 +1,88 @@
+<html>
+<head>
+    <title>Home page</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+</head>
+<style>
+    nav{
+        float: right;
+
+    }
+    h1{
+        background-color: blue;
+        color: white;
+        border-radius: 30px;
+    }
+    h2{
+        text-align: center;
+    }
+</style>
+<br>
+
+<nav>
+    <a href="/home/">home</a>
+    <a href="/contact/">contact</a>
+    <a href="/services/">services</a>
+    <a href="/feedback/">feedback</a>
+    <a href="/gallary/">Gallary</a>
+</nav><br><br>
+<div class="container">
+    <center>
+<h1 class="text-center">welcome to Durgasoft</h1>
+        </center>
+</div>
+{% block content %}
+
+
+
+{% endblock %}
+
+
+<div class="container bg-warning text-white">
+    <div class="row">
+        <div class="col-md-4">
+            <pre>
+           <h2> Address-1</h2>
+            Durga software solutions
+            ameerpet branch
+            In mitrivanam
+            hyderabad
+            mobile:899878897
+            mail:durgaameerpet@gmail.com
+                </pre>
+        </div>
+        <div class="col-md-4">
+            <pre>
+              <h2> Address-2</h2>
+            Durga software solutions
+            madhapur branch
+            beside petrol bunk
+            hyderabad
+            mobile:9090909090
+            mail:durga2@gmail.com
+                </pre>
+
+        </div>
+        <div class="col-md-4">
+            <pre>
+            <h2> Address-3</h2>
+            Durga software solutions
+            madhapur branch
+            beside petrol bunk
+            hyderabad
+            mobile:9090909090
+            mail:durgamadhapur@gmail.com
+                </pre>
+
+        </div>
+    </div>
+
+</div>
+
+</html>
