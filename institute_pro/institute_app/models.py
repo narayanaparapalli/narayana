@@ -1,7 +1,7 @@
 from django.db import models
 from multiselectfield import MultiSelectField
 
-
+# this modal class
 class InstContact_Data(models.Model):
     name=models.CharField(max_length=100)
     mobile=models.BigIntegerField()
